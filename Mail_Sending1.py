@@ -61,7 +61,7 @@ def mail_send(Dir_Name,Sender_Mail):
 
     s.starttls()
                 
-    s.login(fromaddr, "qvbitgkjtejhifdt")
+    s.login(fromaddr, "App Password")
                 
     text = msg.as_string()
 
